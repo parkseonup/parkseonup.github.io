@@ -313,13 +313,13 @@ input[type="search"]::-webkit-search-results-decoration {
   color: white;
 }
 .header .flex-container {
-  width: 90%;
+  width: 94%;
 }
 .header-inner {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   margin-bottom: 0.5rem;
 }
 .header-inner #menu-btn {
@@ -405,9 +405,12 @@ input[type="search"]::-webkit-search-results-decoration {
   line-height: 1.25rem;
   color: white;
 }
+.footer .flex-container {
+  width: 94%;
+}
 .footer .footer-text {
   margin-top: 2rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2rem;
 }
 .post-list a {
   background-image: linear-gradient(#fff, #fff), linear-gradient(white, white);
@@ -451,7 +454,6 @@ input[type="search"]::-webkit-search-results-decoration {
   line-height: 1.25rem;
   color: white;
   line-height: 1.5rem;
-  color: #afaea9;
 }
 @media (max-width: 480px) {
   .post-list-item {
