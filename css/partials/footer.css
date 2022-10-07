@@ -1,8 +1,15 @@
 .footer {
   margin-top: $margin-primary;
-  border: $line-secondary $color-text-primary solid;
+}
+.footer .flex-container {
+  width: 94%;
 }
 .footer .footer-text {
   margin-top: $margin-l-1;
-  margin-bottom: $margin-primary;
+  margin-bottom: $margin-l-1;
+}
+@media (max-width: 688px) {
+  .footer .flex-container {
+    width: calc(100% - 48px);
+  }
 }
